@@ -23,9 +23,9 @@ import com.YooFood.mongo.service.DireccionesService;
 public class DireccionesServiceImpl implements DireccionesService{
 	
 	final String user = "yofood";
-	final String pass = "oracle";
+	final String pass = "*********";
 	final String bd = "BD_YOOFOOD";
-	final String host = "54.203.2.7";
+	final String host = "*********";
 	final int port = 27017;
 	
 	public GeoResults<Publicaciones> geoNear(DireccionModel dir){
