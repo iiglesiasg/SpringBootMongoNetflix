@@ -1,0 +1,47 @@
+spring:
+  application:
+    name: ms_yoofood_mongo    
+  data:
+    mongodb:
+      host: 54.203.2.7
+      port: 27017
+      username: yofood
+      password: oracle
+      database: BD_YOOFOOD
+      repositories:
+        enabled: true
+                        
+#Server Port
+server:
+ port: 8092
+ 
+# ssl:
+#    key-store-type: PKCS12
+#    key-store: classpath:keystore.p12
+#    key-store-password: equiporeapro
+#    key-alias: tomcat
+
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
+#  instance:
+#    hostname: localhost
+    
+management:
+  context-path: /admin
+  port: 9000
+  shell:
+    ssh:
+      port: 2000
+  security:
+    enabled: false
+  #require-ssl: true    
+    
+#logging:
+ # file: C:\Users\usuario\Desktop\laNube\Logs\prueba.log       
+    
+    
+ 
+
+  
