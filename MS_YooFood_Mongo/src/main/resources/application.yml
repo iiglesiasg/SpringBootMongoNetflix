@@ -3,10 +3,10 @@ spring:
     name: ms_yoofood_mongo    
   data:
     mongodb:
-      host: 54.203.2.7
+      host: *******
       port: 27017
       username: yofood
-      password: oracle
+      password: ******
       database: BD_YOOFOOD
       repositories:
         enabled: true
